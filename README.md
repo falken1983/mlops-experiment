@@ -1,6 +1,6 @@
 # mlops_experiment
 
-mlops experiment w/ Poetry
+mlops experiment w/ `cookiecutter`, `Poetry` and `git` for dev projects.
 
 ## Installation
 
