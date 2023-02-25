@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "mlops_experiment"
+version = "0.1.0"
+description = "mlops experiment w/ Poetry"
+authors = ["Monty Python"]
+license = "None"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+mlops-helper = {path = "../mlops_helper"}
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
